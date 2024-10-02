@@ -9,6 +9,18 @@ For this script you will need nodejs, npm and typescript
 
 ### To run the script
 
+First clone the repo
+
+```sh
+git clone https://github.com/RoniGuru/order-scheduler.git
+```
+
+Then use npm install to download the dependencies
+
+```sh
+npm run install
+```
+
 To first run the script you need to convert the ts files to js using build
 
 ```sh
@@ -46,7 +58,7 @@ console.log(orderScheduler(names));
 To run the test
 
 ```sh
-npm run tests
+npm run test
 ```
 
 which should output
