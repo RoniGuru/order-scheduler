@@ -5,6 +5,7 @@ describe('format time function', () => {
     expect(formatTime(0)).toBe('00:00');
     expect(formatTime(60)).toBe('01:00');
     expect(formatTime(275)).toBe('04:35');
+    expect(formatTime(275)).toBe('333:20');
   });
 });
 
