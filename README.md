@@ -18,7 +18,7 @@ git clone https://github.com/RoniGuru/order-scheduler.git
 Then use npm install to download the dependencies
 
 ```sh
-npm run install
+npm  install
 ```
 
 To first run the script you need to convert the ts files to js using build
